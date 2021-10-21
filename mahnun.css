@@ -1,0 +1,92 @@
+
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&family=Work+Sans:ital,wght@0,100;0,200;0,300;0,400;0,500;0,531;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,531;1,600;1,700;1,800;1,900&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Oswald:wght@200;300;400;500;600;700&display=swap');
+@import url('https://fonts.googleapis.com/css?family=Roboto&display=swap');
+
+*{margin:0;padding:0;}
+
+body{
+	font-family: 'Work Sans', sans-serif;
+	font-size : 16px;
+}
+
+h1, h2, h3, h4, h5, h6{
+	font-family: 'Oswald', sans-serif; font-weight : 500;
+}
+
+header{
+    margin: 0px 200px;
+}
+section{	
+	padding: 0px 0px;
+    margin: 0px 0px;
+}
+
+.topBarMain {
+	background: #f5f5f5;
+	background-size: 100%;
+}
+
+.container {
+    max-width: 100%;
+    min-width: 500px;
+	float: none;
+    padding: 0px 100px;
+}
+
+
+.email {
+    min-width: 30%;
+    float: left;
+	padding: 15px 10px;
+	border-left: 1px solid #ddd;
+}
+
+.email i {
+	color: #32CD32;
+   
+}
+
+
+.social {
+	font-size: 30px;
+	float: right;
+	transition: .5s;
+	}
+	
+.f i {
+	color: rgb(59, 89, 152);
+	}
+
+.y i {color: rgb(255, 0, 0);
+	min-width: 0%;}
+
+.topWrapper {
+    overflow: hidden;
+	width: 100%;
+}
+
+
+.social a {
+    padding: 10px;
+    display: block;
+    float: left;
+    color: #2b2b2b;
+    border-left: 1px solid #ddd;
+}
+
+.social a:last-child{
+	border-right: 1px solid #ddd;
+}
+
+
+.mySlides {display:none}
+.w3-left, .w3-right, .w3-badge {cursor:pointer}
+.w3-badge {height:13px;width:13px;padding:0}
+
+
+
+
+
+
+
